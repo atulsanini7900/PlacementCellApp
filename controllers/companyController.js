@@ -42,7 +42,7 @@ module.exports.scheduleInterview = async function (req, res) {
       date,
       result: 'Pending',
     };
-    // if company doesnt exist
+    // if company doesnt exist |||
     if (!existingCompany) {
       const newCompany = await Company.create({
         name: company,
