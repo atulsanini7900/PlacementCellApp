@@ -10,7 +10,7 @@ const port = process.env.PORT || 8000;
 dotenv.config({ path: 'config/.env' });
 
 const app = express();
-// set ejs as view engine
+// set ejs as view engine//
 app.set('view engine', 'ejs');
 app.set('views', './views');
 app.use(
