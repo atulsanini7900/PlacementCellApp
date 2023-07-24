@@ -92,11 +92,63 @@ Placement-Cell/
 
 ## Setup
 
-Run `npm install` to install required dependencies
+This guide will walk you through the setup process for the Placement Cell app, which is a web application designed to manage placement-related activities for an institution. The app consists of a client-side using HTML, CSS, and JavaScript, and a server-side using Node.js, Express.js, and Mongoose. Additionally, the app uses EJS as a templating engine for server-side rendering.
 
-Environment Variables:
+### Prerequisites:
 
-- PORT = [Your Port]
-- SECRET = [Your Secret]
-- MONGO_URI = [Your MongoDB Ur]
-#
+Node.js and npm installed on your system.
+
+### Step 1: Clone the Repository
+
+Open your terminal or command prompt.
+Use the git clone command to clone the repository to your local machine.
+bash
+
+ ``git clone <repository_url>``
+
+### Step 2: Client Setup
+
+Navigate to the client directory within the cloned repository.
+bash
+
+```cd client```
+
+Open the index.html file using your preferred code editor and make any necessary modifications to the HTML structure and content.
+Customize the styles by editing the styles.css file located in the css directory.
+Add interactivity and functionality by editing the script.js file found in the js directory.
+
+### Step 3: Server Setup
+
+Navigate to the server directory in the cloned repository.
+bash
+
+``cd ../server``
+
+Install the required Node.js packages by running the following command.
+
+``npm install``
+
+Set up the MongoDB database using Mongoose. Modify the config.js file in the config directory with your MongoDB connection URL.
+Create necessary models for the placement cell app in the models directory using Mongoose schema.
+Implement the required routes and logic in the routes directory to handle placement cell functionalities like adding, updating, and deleting placements.
+
+### Step 4: EJS Templating
+
+In the server directory, navigate to the views folder.
+Customize the EJS templates to render dynamic content and data from the server.
+Ensure that the templates are correctly integrated with the routes to display the data as intended.
+
+### Step 5: Start the Application
+
+Navigate back to the server directory.
+bash
+
+``cd ../server``
+
+Run the following command to start the server.
+
+``node app.js``
+
+### Step 6: Access the Application
+
+Open your web browser and visit http://localhost:8000 to access the Placement Cell app.
