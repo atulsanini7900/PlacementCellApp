@@ -15,6 +15,46 @@
 - Allocate and schedule interview with different companies and update their result status
 - Download reports of students in csv format
 
+  ## Folder Structure
+```
+Placement-Cell/
+|── |assets/
+│   |      ├── css/
+│   │      |     ├── styles.css
+│   |      ├── js/
+│   |            ├── script.js
+│   ├── uploads/
+│   ├── index.html
+|   |
+├── routes/
+│   ├── companyRoute.js
+│   ├── userRoute.js
+│   ├── studentRoute.js
+│   ├── index.js
+|   |
+├── controllers/
+│   ├── companyController.js
+│   ├── homeController.js
+│   ├── studentController.js
+│   ├── userController.js
+|   |
+├── models/
+│   ├── companySchema.js
+│   ├── userSchema.js
+│   ├── studentSchema.js
+|   |
+├── views/
+│   ├── sinup.ejs
+│   ├── signin.ejs
+│   ├── home.ejs
+│   ├── company.ejs
+│   ├── allocationinterview.ejs
+│   ├── add_student.ejs
+├── .gitignore
+├── package.json
+├── README.md
+```
+
   ## Screenshots
 
 - Sign Up
