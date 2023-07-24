@@ -8,6 +8,19 @@
      This App built using <a href="https://ejs.co/">EJS</a>, <a href="https://www.mongodb.com/">MongoDB</a>, <a href="https://expressjs.com/">ExpressJs</a>, <a href="https://nodejs.org/en/">NodeJs</a> and <a href="http://www.passportjs.org/">PassportJS</a>
 </p>
 
+## Tech Stack
+
+**Client:** `HTML`, `CSS`, `JAVASCRIPT`
+
+**Server:** `Node.js, Express.js, Mongoose, EJS,
+
+
+## 🔗 Links
+Github Link:- https://github.com/atulsanini7900/PlacementCellApp.git
+
+## 🔗 Live Demo
+Render Link:- https://placement-cell-app-kxhc.onrender.com
+
 ## Features
 
 - Sign up / Sign in forms for employees
